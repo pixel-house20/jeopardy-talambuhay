@@ -38,8 +38,10 @@ You need node version 23 or higher in order to run typescript files directly.
 
 ## Deploy 
 
-We use a node server to run the app. on the terminal in your production server, run:
+A node server is used to run the app. on the terminal in your production server, run:
 
 ```bash
 npm run start
 ``` 
+
+in production, you have to have a node version that will automatically execute typescript.
