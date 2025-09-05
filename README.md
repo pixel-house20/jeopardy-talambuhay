@@ -1,15 +1,6 @@
 # Jeopardy Talambuhay
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
 
-## Creating this project 
-```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create jeopardy-talambuhay
-```
 
 ## Developing
 
@@ -44,4 +35,18 @@ A node server is used to run the app. on the terminal in your production server,
 npm run start
 ``` 
 
+
+## Creating this project 
+
+Archives: Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+
 in production, you have to have a node version that will automatically execute typescript.
+
+
+```bash
+# create a new project in the current directory
+npx sv create
+# create a new project in my-app
+npx sv create jeopardy-talambuhay
+```
+
