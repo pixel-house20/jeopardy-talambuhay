@@ -6,26 +6,27 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'Am I MD mentor?',
-        answer: 'Yes',
+        question: 'what grade did I first join the school in?',
+        answer: '6th grade',
     },
     {
         points: 200,
         question:
-            'Where do I live',
-        imgSrc: "https://as1.ftcdn.net/jpg/01/27/10/28/1000_F_127102830_yIJaRdtpHOjbGyBGpoXGjfLHpHtOuqSj.jpg",
-        answer: 'New Jersey',
+            'What instrument did I first play?',
+        //imgSrc: "https://as1.ftcdn.net/jpg/01/27/10/28/1000_F_127102830_yIJaRdtpHOjbGyBGpoXGjfLHpHtOuqSj.jpg",
+        answer: 'Trumpet',
     },
     {
         points: 300,
         question:
-            'What Ivy League school has the highest Native American enrollment (a whoppping 1%)?',
-        answer: 'Dartmouth',
+            'where did I go to school before horace mann?',
+        answer: 'Caedmon',
     },
     {
         points: 400,
-        question: 'Who wrote the Critique of Pure Reason?',
-        answer: 'Immanuel Kant',
+        question: 'Where did I used to live(Answer should be the city not the state)?',
+        imgSrc: "https://as1.ftcdn.net/jpg/01/27/10/28/1000_F_127102830_yIJaRdtpHOjbGyBGpoXGjfLHpHtOuqSj.jpg",
+        answer: 'New Brunswick',
     }
 ]);
 
@@ -54,10 +55,10 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question:
-                'How many siblings do I have?',
+                'what type of instruments do I absolutely possitively loathe?',
             //imgSrc:
               //  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: '4',
+            answer: 'brass instruments',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
@@ -71,23 +72,23 @@ const futureQuestions: Question[] = sortQuestions([
     },
     {
 points: 200,
-        question: ' What and how many pets would I like to have in the future?',
-        answer:' 2 dogs and 1 cat',
+        question: ' What is one skill I want to learn?',
+        answer:' Learning how to play the saxaphone',
 
     },
 
     {  points:300,
         question: 'What is one place I want to visit?', 
         imgSrc:'https://m.media-amazon.com/images/I/61RLIxUli1L.jpg',
-        answer: 'middle east',
+        answer: 'the middle east',
 
 
 
     },
     {
         points: 400,
-        question: 'What is one skill I want to learn?',
-        answer: 'Learning how to play the saxaphone',
+        question: 'What and how many pets(focus on the plural) would I like to have in the future?',
+        answer: '2 dogs and 1 cat',
     }
 ]);
 
