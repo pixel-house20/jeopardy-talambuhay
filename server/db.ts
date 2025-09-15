@@ -6,15 +6,15 @@ const sortQuestions = (questions: { points: number; question: string; answer: st
 const pastQuestions: Question[] = sortQuestions([
     {
         points: 100,
-        question: 'What US state is the Land of Lincoln?',
-        answer: 'Illinois',
+        question: 'Am I MD mentor?',
+        answer: 'Yes',
     },
     {
         points: 200,
         question:
-            'Which country\'s flag is this?',
-        imgSrc: "https://cdn.britannica.com/34/4034-050-91EE1BCF/Flag-Myanmar.jpg",
-        answer: 'Myanmar',
+            'Where do I live',
+        imgSrc: "https://as1.ftcdn.net/jpg/01/27/10/28/1000_F_127102830_yIJaRdtpHOjbGyBGpoXGjfLHpHtOuqSj.jpg",
+        answer: 'New Jersey',
     },
     {
         points: 300,
@@ -34,55 +34,75 @@ const presentQuestions: Question[] =
         {
             points: 200,
             question:
-                'What kind of rock is this?',
-            imgSrc: 'https://madera.objects.liquidweb.services/photos/16842-half-dome-closeup-from-glacier-point-steve-montalto-hmi-Rectangle-600x400.jpg',
-            answer: 'Granite',
+                'Where do I live?',
+            imgSrc: 'https://as1.ftcdn.net/jpg/01/27/10/28/1000_F_127102830_yIJaRdtpHOjbGyBGpoXGjfLHpHtOuqSj.jpg',
+            answer: 'New Jersey',
         },
         {
             points: 100,
             question:
-                'What is this Cafe called?',
-            imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
-            answer: 'Chaotic Good',
+                'Am I a MD mentor?',
+           //imgSrc: 'https://lh3.googleusercontent.com/p/AF1QipNsmB0ugJeJxYVrBKpRkNkyiEa6cKLamFZ4r0M=s1360-w1360-h1020',
+            answer: 'yes',
         },
         {
             points: 300,
-            question: 'What programming language is the below code?',
-            imgSrc: '/programming_language.png',
-            answer: 'Javascript',
+            question: 'how many dogs do I have?',
+            imgSrc: '/fawn-mastiff-dog.png',
+            answer: '2',
         },
         {
             points: 400,
             question:
-                'Who painted this?',
-            imgSrc:
-                "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
-            answer: 'Keith Haring',
+                'How many siblings do I have?',
+            //imgSrc:
+              //  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
+            answer: '4',
         }
     ]);
 const futureQuestions: Question[] = sortQuestions([
     {
         points: 100,
         question:
-            'This country is home to the Dolomites, which are a mountain range that has historical \'via ferratas\', iron cables and rungs, to aid traversing the peaks?',
-        imgSrc:
-            "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
-        answer: 'Italy',
+            'What do I want to major in?',
+        //imgSrc:
+          //  "https://laguidalpina.it/cdn/shop/products/ferrata-marmolada-cresta-ovest-Cristiano-Gregnanin-Guida-Alpina-Certificata-Dolomiti-5.jpg?v=1738870778",
+        answer: 'Computer Science',
+    },
+    {
+points: 200,
+        question: ' What and how many pets would I like to have in the future?',
+        answer:' 2 dogs and 1 cat',
+
+    },
+
+    {  points:300,
+        question: 'What is one place I want to visit?', 
+        imgSrc:'https://m.media-amazon.com/images/I/61RLIxUli1L.jpg',
+        answer: 'middle east',
+
+
+
+    },
+    {
+        points: 400,
+        question: 'What is one skill I want to learn?',
+        answer: 'Learning how to play the saxaphone',
     }
 ]);
 
 
 const categories = [
     {
-        title: 'My Past',
+        title: 'Khairi\'s Past',
         questions: pastQuestions
     },
     {
-        title: 'My Present',
+        title: 'Khairi\'s Present',
         questions: presentQuestions
     },
     {
-        title: 'My Future',
+        title: 'Khairi\'s Future',
         questions: futureQuestions
     }
 ];
