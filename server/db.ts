@@ -13,7 +13,7 @@ const pastQuestions: Question[] = sortQuestions([
         points: 200,
         question:
             'What instrument did I first play?',
-        //imgSrc: "https://as1.ftcdn.net/jpg/01/27/10/28/1000_F_127102830_yIJaRdtpHOjbGyBGpoXGjfLHpHtOuqSj.jpg",
+        imgSrc: "https://i.ytimg.com/vi/Fnsl7aAIx8k/maxresdefault.jpg",
         answer: 'Trumpet',
     },
     {
@@ -55,9 +55,9 @@ const presentQuestions: Question[] =
         {
             points: 400,
             question:
-                'what type of instruments do I absolutely possitively loathe?',
-            //imgSrc:
-              //  "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjb1tCOwOdOeYcp5iflCvvW95qCqpmNUo-TMIt3ndxzsxzmgmH18iClIIQLPO48ojPg5Rts2AUm9rZBeVPcjnjrjGaLSzCwbipQotY4EhOk3tUoHJjJyZjTqfY5s9MZ5eSkGrrqmom4JXUdHEqE-Ts8E9i-SuFf9xEukJcFBs5NuOhe6ANdODMFYzyV_Q/s16000/Unfinished.jpg",
+                'what type of instruments do I absolutely possitively loathe?(hint: it/s in the photo)',
+            imgSrc:
+                "https://i.ytimg.com/vi/Fnsl7aAIx8k/maxresdefault.jpg",
             answer: 'brass instruments',
         }
     ]);
